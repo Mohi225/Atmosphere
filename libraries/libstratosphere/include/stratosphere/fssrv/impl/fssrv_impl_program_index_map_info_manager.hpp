@@ -18,6 +18,7 @@
 #include <stratosphere/ncm/ncm_ids.hpp>
 #include <stratosphere/fs/impl/fs_newable.hpp>
 #include <stratosphere/fs/fs_program_index_map_info.hpp>
+#include <stratosphere/fssystem/fssystem_pimpl.hpp>
 
 namespace ams::fssrv::impl {
 
@@ -157,3 +158,5 @@ namespace ams::fssrv::impl {
 
 
 }
+
+AMS_FSSYSTEM_ENABLE_PIMPL(::ams::fssrv::impl::ProgramIndexMapInfoManager)
